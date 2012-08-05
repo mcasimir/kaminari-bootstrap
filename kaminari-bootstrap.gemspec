@@ -5,7 +5,7 @@
 
 Gem::Specification.new do |s|
   s.name = "kaminari-bootstrap"
-  s.version = "0.1.1"
+  s.version = "0.1.2"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.authors = ["mcasimir"]
@@ -31,8 +31,7 @@ Gem::Specification.new do |s|
     "app/views/kaminari/_page.html.erb",
     "app/views/kaminari/_paginator.html.erb",
     "app/views/kaminari/_prev_page.html.erb",
-    "kaminari-bootstrap.gemspec",
-    "lib/kaminari_bootstrap.rb"
+    "kaminari-bootstrap.gemspec"
   ]
   s.homepage = "http://github.com/mcasimir/kaminari-bootstrap"
   s.licenses = ["MIT"]
