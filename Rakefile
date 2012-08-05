@@ -17,8 +17,8 @@ Jeweler::Tasks.new do |gem|
   gem.name = "kaminari-bootstrap"
   gem.homepage = "http://github.com/mcasimir/kaminari-bootstrap"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{Kaminari views for Twitter Bootstrap (rails engine)}
+  gem.description = %Q{Kaminari views for Twitter Bootstrap (rails engine)}
   gem.email = "maurizio.cas@gmail.com"
   gem.authors = ["mcasimir"]
   # dependencies defined in Gemfile
