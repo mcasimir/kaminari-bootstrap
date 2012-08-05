@@ -31,7 +31,8 @@ Gem::Specification.new do |s|
     "app/views/kaminari/_page.html.erb",
     "app/views/kaminari/_paginator.html.erb",
     "app/views/kaminari/_prev_page.html.erb",
-    "kaminari-bootstrap.gemspec"
+    "kaminari-bootstrap.gemspec",
+    "lib/kaminari-bootstrap.rb"
   ]
   s.homepage = "http://github.com/mcasimir/kaminari-bootstrap"
   s.licenses = ["MIT"]
