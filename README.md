@@ -1,9 +1,9 @@
-# kaminari-bootstrap
+# kaminari-bootstrap - Kaminari Views + Twitter Bootstrap
 
 Rails engine to use kaminari views with Twitter Bootstrap markup.
 
 ``` rb
-gem 'twitter-bootstrap'
+gem 'kaminari-bootstrap'
 ```
 
 ---
