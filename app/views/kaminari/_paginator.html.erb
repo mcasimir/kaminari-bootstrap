@@ -8,7 +8,7 @@
 -%>
 <%= paginator.render do -%>
   <nav class="pagination">
-  <% if num_pages > 0 -%>
+  <% if total_pages > 0 -%>
     <ul>
       <%= first_page_tag unless current_page.first? %>
       <%= prev_page_tag unless current_page.first? %>
