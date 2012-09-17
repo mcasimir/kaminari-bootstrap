@@ -1,7 +1,7 @@
 source "http://rubygems.org"
 
 gem 'rails'
-gem 'kaminari'
+gem 'kaminari', ">= 0.13.0"
 
 group :development do  
   gem "bundler"

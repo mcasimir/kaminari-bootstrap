@@ -94,5 +94,5 @@ PLATFORMS
 DEPENDENCIES
   bundler
   jeweler (~> 1.8.4)
-  kaminari
+  kaminari (>= 0.13.0)
   rails
