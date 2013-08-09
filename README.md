@@ -2,9 +2,27 @@
 
 Rails engine to use kaminari views with Twitter Bootstrap markup.
 
-``` rb
-gem 'kaminari-bootstrap'
-```
+
+
+## Install
+
+1. Put this line in your Gemfile:
+
+    ``` rb
+    gem 'kaminari-bootstrap'
+    ```
+
+2. Then bundle:
+
+    ```
+    bundle
+    ```
+
+3. Now generate the new kaminari views with bootstrap theme
+
+    ```
+    rails g kaminari:views bootstrap
+    ```
 
 ---
 
