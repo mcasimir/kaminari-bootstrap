@@ -6,6 +6,9 @@ Rails engine to use kaminari views with Twitter Bootstrap markup.
 gem 'kaminari-bootstrap'
 ```
 
+Just add the above line to your Gemfile, run bundle install and restart your web serer (if already running). 
+Now the kaminari paginate helper will generate bootstrap compatible markup.
+
 ---
 
 Copyright (c) 2012 mcasimir
