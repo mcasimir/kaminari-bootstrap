@@ -2,8 +2,16 @@
 
 Rails engine to use kaminari views with Twitter Bootstrap markup.
 
+Bootstrap 3:
+
 ``` rb
-gem 'kaminari-bootstrap'
+gem 'kaminari-bootstrap', '~> 3.0.1'
+```
+
+Bootstrap 2:
+
+``` rb
+gem 'kaminari-bootstrap', '~> 0.1.3'
 ```
 
 ---
