@@ -5,5 +5,5 @@ gem 'kaminari', ">= 0.13.0"
 
 group :development do  
   gem "bundler"
-  gem "jeweler", "~> 1.8.4"
+  gem "jeweler", ">= 1.8.5"
 end
