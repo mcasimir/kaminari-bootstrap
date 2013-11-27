@@ -1,49 +1,117 @@
-# rcov generated
-coverage
-coverage.data
+# Created by http://gitignore.io
 
-# rdoc generated
-rdoc
+Gemfile.lock
 
-# yard generated
-doc
-.yardoc
-
-# bundler
+### Ruby ###
+*.gem
+*.rbc
 .bundle
-
-# jeweler generated
+.config
+coverage
+InstalledFiles
+lib/bundler/man
 pkg
+rdoc
+spec/reports
+test/tmp
+test/version_tmp
+tmp
 
-# Have editor/IDE/OS specific files you need to ignore? Consider using a global gitignore: 
-#
-# * Create a file at ~/.gitignore
-# * Include files you want ignored
-# * Run: git config --global core.excludesfile ~/.gitignore
-#
-# After doing this, these files will be ignored in all your git projects,
-# saving you from having to 'pollute' every project you touch with them
-#
-# Not sure what to needs to be ignored for particular editors/OSes? Here's some ideas to get you started. (Remember, remove the leading # of the line)
-#
-# For MacOS:
-#
-#.DS_Store
+# YARD artifacts
+.yardoc
+_yardoc
+doc/
 
-# For TextMate
-#*.tmproj
-#tmtags
+### Rails ###
+*.rbc
+*.sassc
+.sass-cache
+capybara-*.html
+.rspec
+.rvmrc
+/.bundle
+/vendor/bundle
+/log/*
+/tmp/*
+/db/*.sqlite3
+/public/system/*
+/coverage/
+/spec/tmp/*
+**.orig
+rerun.txt
+pickle-email-*.html
+.project
+!.keep
 
-# For emacs:
-#*~
-#\#*
-#.\#*
 
-# For vim:
-#*.swp
+### SublimeText ###
+# SublimeText project files
+*.sublime-workspace
 
-# For redcar:
-#.redcar
+### TextMate ###
+*.tmproj
+*.tmproject
+tmtags
 
-# For rubinius:
-#*.rbc
+### OSX ###
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon
+
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
+
+### Windows ###
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+### Linux ###
+.*
+!.gitignore
+!.git*
+*~
+
+
+### RubyMine ###
+.idea/workspace.xml
+
+### Eclipse ###
+*.pydevproject
+.project
+.metadata
+bin/**
+tmp/**
+tmp/**/*
+*.tmp
+*.bak
+*.swp
+*~.nib
+local.properties
+.classpath
+.settings/
+.loadpath
+
+# External tool builders
+.externalToolBuilders/
+
+# Locally stored "Eclipse launch configurations"
+*.launch
+
+# CDT-specific
+.cproject
+
+# PDT-specific
+.buildpath
