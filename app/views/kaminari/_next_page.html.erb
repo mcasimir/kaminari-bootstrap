@@ -8,7 +8,7 @@
 -%>
 
 <% unless current_page.last? -%>
-  <li class="next">
-    <%= link_to raw(t 'views.pagination.next'), url, :remote => remote, :rel => 'next' %>
+  <li class="page-item next">
+    <%= link_to raw(t 'views.pagination.next'), url, :remote => remote, class: 'page-link', rel: 'next' %>
   </li>
 <% end -%>
